@@ -1,0 +1,60 @@
+.parent{
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.ulist{
+    list-style: none;
+    padding: 0px;
+    gap: 30px;
+    display: flex;
+    margin: 0px;
+}
+.btn{
+    border: 3px solid lightgreen;
+    padding: 15px;
+    border-radius: 12px;
+}
+.all{
+    max-width: 1400px;
+    margin: auto;
+    background-image: url("/practice/image-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+.com{
+    margin: 0px;
+}
+.search{
+    padding: 7px;
+    width: 500px;
+}
+.pu{
+    color: orangered;
+}
+.details{
+    border: 3px solid red;
+    text-transform: uppercase;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: lightgreen;
+    display: none;
+    position: absolute;
+    top: 50px;
+}
+.about{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.about:hover .details{
+    display: block;
+}
