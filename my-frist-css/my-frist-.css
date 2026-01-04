@@ -1,0 +1,23 @@
+#mytask1{
+            color:blue;
+    }
+.task3{
+    color: red;
+    text-align: center;
+    font-style: initial;
+
+}
+#my{
+    color: aqua;
+    font-size: 40px;
+    font-display:auto;
+    font-style: italic;
+}
+*{
+    background-color: brown;
+
+}
+.image1 , img{
+    width: 200px;
+    height: 200px;
+}
